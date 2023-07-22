@@ -1,19 +1,19 @@
 @media only screen and (max-width: 520px) {
 
     .grpRight h1 {
-        font-size: 1rem;
+        font-size: 2rem;
         -webkit-text-stroke: .5px #BBA017;
     }
 
     .grpRight p {
-        font-size: .5rem;
+        font-size: .8rem;
         letter-spacing: 0.1rem;
     }
 
     .grpRight a {
         padding: 3px 6px;
         font-size: 0.5rem;
-        font-size: 0.5rem;
+        font-size: 1.5rem;
         letter-spacing: 0.1rem;
     }
 
@@ -69,7 +69,7 @@
 @media only screen and (max-width: 768px) {
 
     .AboutText p {
-        font-size: 0.5rem;
+        font-size: 1.5vh;
         padding: 0.3rem 1rem;
         letter-spacing: 0;
 
@@ -97,13 +97,18 @@
 
     .AboutText p {
         text-align: justify;
-        font-size: 0.35rem;
+        font-size: 1.5vh;
         padding: 0.5rem 1rem;
         letter-spacing: 0;
     }
 
     .AboutText h1 {
         font-size: 1rem;
+    }
+
+    .flx-sp-bw .media-icon {
+        width: 3rem;
+        height: 3rem;
     }
 
     .media-icon {

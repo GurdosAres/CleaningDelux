@@ -500,12 +500,21 @@ nav div a:hover {
     justify-content: space-between
 }
 
+.flx-sp-bw .media-icon:nth-child(1) {
+    width: 3rem;
+    height: 3rem;
+}
+
 .flx-sp-bw .media-icon:nth-child(2) {
     background-image: url("icons/2.png");
+    width: 3rem;
+    height: 3rem;
 }
 
 .flx-sp-bw .media-icon:nth-child(3) {
     background-image: url("icons/3.png");
+    width: 3rem;
+    height: 3rem;
 }
 
 

@@ -149,13 +149,16 @@
 
     .ms-adpt {
         display: flex;
+        height: 100%;
+        flex-wrap: nowrap;
         flex-direction: column;
+        justify-content: space-evenly;
 
     }
 
     .ms-adpt a {
-        font-size: 2rem;
-        padding: 0.2rem;
+        font-size: 4rem;
+        padding: 0.5rem;
     }
 
 
@@ -168,16 +171,15 @@
     }
 
     .menuAdapt {
-        display: grid;
+        display: flex;
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
+        flex-direction: column;
         z-index: 2;
+        align-items: center;
     }
 
     .media-icon {

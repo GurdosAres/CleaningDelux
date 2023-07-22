@@ -1,6 +1,13 @@
 @media only screen and (max-width: 1367px) {
 
 
+
+
+
+
+
+
+
     .AboutText p {
 
 
@@ -39,22 +46,22 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-height: 1024px) {
     .grpRight h1 {
-        font-size: 4rem;
+        font-size: 7rem;
     }
 
     .grpRight p {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     .bd1 h1 {
-        font-size: 3.5rem;
+        font-size: 7rem;
     }
 
-    .grpRight a {
-        padding: 1rem;
-        font-size: 1.675rem
+    .grpRight button {
+        padding: 2rem;
+        font-size: 2.675rem
     }
 
 
@@ -64,20 +71,20 @@
 
 @media only screen and (max-width: 1024px) {
     .grpRight h1 {
-        font-size: 3rem;
+        font-size: 7rem;
     }
 
     .grpRight p {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .bd1 h1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
-    .grpRight a {
-        padding: 0.5rem;
-        font-size: 1rem
+    .grpRight button {
+        padding: 1rem;
+        font-size: 2rem
     }
 
     .bd1 {
@@ -104,19 +111,19 @@
 
 @media only screen and (max-width: 768px) {
     .grpRight h1 {
-        font-size: 3rem;
+        font-size: 7rem;
     }
 
     .grpRight p {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .grpRight {
-        justify-content: space-evenly
+        justify-content: center;
     }
 
     .bd1 h1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
     .bd1 {

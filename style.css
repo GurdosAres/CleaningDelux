@@ -816,6 +816,7 @@ nav div a:hover {
     display: flex;
     align-items: center;
     padding-left: 1rem;
+    justify-content: space-evenly;
 }
 
 .size {
@@ -824,7 +825,6 @@ nav div a:hover {
 }
 
 .size .flx-sp-bw {
-    margin-left: 2rem;
     display: flex;
     width: 100%;
     justify-content: space-evenly;

@@ -1,0 +1,115 @@
+@media only screen and (max-width: 520px) {
+
+    .grpRight h1 {
+        font-size: 1rem;
+        -webkit-text-stroke: .5px #BBA017;
+    }
+
+    .grpRight p {
+        font-size: .5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .grpRight a {
+        padding: 3px 6px;
+        font-size: 0.5rem;
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .hamburger-lines .line {
+        margin: 0.5rem;
+        height: 5px;
+    }
+
+    .ms-adpt a {
+        font-size: 1rem;
+        padding: 0;
+        justify-content: space-between;
+        height: 50vh;
+    }
+
+    .container2 {
+        box-shadow: none;
+    }
+
+    .offer {
+        width: 25rem;
+        height: 45rem;
+    }
+
+    .AboutText::after {
+        display: none;
+        content: none;
+    }
+
+    .AboutText {
+        width: 100%;
+        background: #ffffffc2;
+    }
+
+    .bgImg {
+        width: 100%;
+    }
+
+    .AboutText h1 {
+        text-align: justify;
+        font-size: 1rem;
+        padding: 0.3rem 1rem;
+        letter-spacing: 0;
+    }
+
+    .icon-phone {
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .AboutText p {
+        font-size: 0.5rem;
+        padding: 0.3rem 1rem;
+        letter-spacing: 0;
+
+    }
+
+    .AboutText h1 {
+        text-align: justify;
+        font-size: 1rem;
+        padding: 0.3rem 1rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 410px) {
+
+    nav .logo {
+        font-size: 1rem;
+    }
+
+    .hamburger-lines {
+        width: 3.5rem;
+    }
+
+    .AboutText p {
+        text-align: justify;
+        font-size: 0.35rem;
+        padding: 0.5rem 1rem;
+        letter-spacing: 0;
+    }
+
+    .AboutText h1 {
+        font-size: 1rem;
+    }
+
+    .media-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+}

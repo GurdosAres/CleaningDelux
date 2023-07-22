@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media_average_device.css" />
+    <link rel="stylesheet" href="media_small_device.css" />
+    <link rel="stylesheet" href="media_large_device.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rampart One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh Sans:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bakbak One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <main class="Main" id="main_div">
+        <nav class="menu" id="navMenu">
+            <div class="logoAndHam">
+                <a href="#main_div" class="logo">Cleaning Delux</a>
+                <div class="hamburger-lines" id="HamBtn" onclick="CloseOpen();">
+                    <span class=" line "></span>
+                    <span class=" line "></span>
+                    <span class=" line "></span>
+                </div>
+            </div>
+            <div class="optionsOfMenu visibility ms-adpt" id="menuVisibility">
+                <a href="#img-Holder" onclick="CloseOpen();">Galeria</a>
+                <a href="#about" onclick="CloseOpen();">O nas</a>
+                <a href="#contact" onclick="CloseOpen();">Kontakt</a>
+            </div>
+        </nav>
+        <div></div>
+        <section class=" bd1">
+            <div class="grpRight">
+                <h1>Nasza pasja to czystość</h1>
+                <p>Zaufaj nam, aby Twój dom błyszczał czystością.</p>
+                <a href="#contact">Kontakt</a>
+                <h1>Cleaning Delux</h1>
+            </div>
+        </section>
+        <div class="transition">
+        </div>
+        <!--  in develpment
+
+
+        <div class="grpLeft">
+    <div class="conteiner_1">
+        <div class="conLogo"></div>
+        <div class="conteiner_2">
+            <b>Sprzątanie Biur</b>
+        </div>
+    </div>
+    <div class="conteiner_1">
+        <div class="conLogo"></div>
+        <div class="conteiner_2">
+            <b>Sprzątanie Hotelów i Apartamentów</b>
+        </div>
+    </div>
+    <div class="conteiner_1">
+        <div class="conLogo"></div>
+        <div class="conteiner_2">
+            <b>Sprzątanie Po Remoncie</b>
+        </div>
+    </div>
+    <div class="conteiner_1">
+        <div class="conLogo"></div>
+        <div class="conteiner_2">
+            <b>Sprzątanie Wspólnoty Mieszkaniowej</b>
+        </div>
+    </div>
+</div> 
+
+-->
+    </main>
+    <section class="offers">
+        <div class="container2">
+            <div class="offer">
+                <div class="bg-img"></div>
+                <div class="btm">
+                    <h2>Sprzątanie Biur</h2>
+                    <p>Nasza firma oferuje usługi sprzątania biur, które są dostosowane do indywidualnych potrzeb klientów. Niezawodny zespół sprzątaczy zapewni, że Twoje biuro zawsze będzie czyste, schludne i gotowe do pracy.</p>
+                    <a href="#contact">Kontakt</a>
+                </div>
+            </div>
+            <div class="offer">
+                <div class="bg-img"></div>
+                <div class="btm">
+                    <h2>Sprzątanie Hotelów</h2>
+                    <p>Nasz zespół specjalistów zapewnia kompleksowe usługi sprzątania dla hoteli, skupiając się na najdrobniejszych detalach, aby zapewnić perfekcyjną czystość i niezapomniane doświadczenie dla gości.</p>
+                    <a href="#contact">Kontakt</a>
+                </div>
+            </div>
+            <div class="offer">
+                <div class="bg-img"></div>
+                <div class="btm">
+                    <h2>Sprzątanie Po Remoncie</h2>
+                    <p>Nasza firma oferuje usługi sprzątania biur, które są dostosowane do indywidualnych potrzeb klientów. Niezawodny zespół sprzątaczy zapewni, że Twoje biuro zawsze będzie czyste, schludne i gotowe do pracy. </p>
+                    <a href="#contact">Kontakt</a>
+                </div>
+            </div>
+            <div class="offer">
+                <div class="bg-img"></div>
+                <div class="btm">
+                    <h2>Sprzątanie Klatek schodowych</h2>
+                    <p>Nasz zespół specjalistów zapewnia kompleksowe usługi sprzątania dla hoteli, skupiając się na najdrobniejszych detalach, aby zapewnić perfekcyjną czystość i niezapomniane doświadczenie dla gości. </p>
+                    <a href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutUs" id="about">
+        <div class="bgImg">
+        </div>
+        <div class="AboutText">
+            <h1>O NAS</h1>
+            <p>Witamy w Cleaning Delux - Twoim profesjonalnym partnerze w usługach sprzątania. Zapewniamy niezawodne i kompleksowe rozwiązania czystości dla domów, biur i innych obiektów. Nasz doświadczony zespół sprzątaczy dba o najwyższą jakość usług, przekraczając oczekiwania klientów. Oferujemy elastyczne harmonogramy, konkurencyjne ceny i indywidualne podejście do każdego zlecenia. Skoncentruj się na swoich priorytetach, a my zajmiemy się resztą. Skontaktuj się z nami już dziś, aby cieszyć się czystym i przyjemnym otoczeniem bez wysiłku. Dołącz do grona zadowolonych klientów, którzy polegają na naszej niezawodności i profesjonalizmie. Twój komfort i satysfakcja są dla nas najważniejsze.</p>
+            <div class="btmSection">
+                <p>Obserwuj nas na różnych portalch</p>
+                <div class="flx-sp-bw">
+                    <div class="media-icon"></div>
+                    <div class="media-icon"></div>
+                    <div class="media-icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h1>GALERIA</h1>
+        <div class="image-holder" id="img-Holder">
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+            <div class="image-slot"></div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <div class="container3">
+                <p>NASZ ADDRESS:</p>
+                <p>Hotel Warszauer, Warszauera 10, 31-057 Kraków</p>
+                <div class="container3_call">
+                    <p>ZADZWOŃ DO NAS</p>
+                    <p>+48 123 456 789</p>
+                    <div class="icon-phone"></div>
+                </div>
+                <p>NAPISZ DO NAS</p>
+                <form action="">
+                    <div class="letter">
+                        <p>Imię i Nazwisko</p>
+                        <input type="text" id="inpt_1">
+                        <p>Email</p>
+                        <input type="text" id="inpt_2">
+                        <p>Wiadomość</p>
+                        <textarea name="inpt_3" id="inpt_3" cols="10" rows="10" maxlength="260"></textarea>
+                    </div>
+                    <button class="btn-form">Wyśli</button>
+                </form>
+            </div>
+        </div>
+        <div class="google-map">
+            <p>Mapa dojazdu</p>
+            <div class="icon-arrow"></div>
+            <p>Cleaning Delux, Warszauera 10, 31-057 Kraków</p>
+            <div class="google-map-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.793871815274!2d19.943465776065107!3d50.05269257151893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b6a8d9577e1%3A0x1ef8f7d9ec040437!2sWarszauera%2010%2C%2031-057%20Krak%C3%B3w!5e0!3m2!1suk!2spl!4v1689958930380!5m2!1suk!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="Footer">
+        <div class="icon-hill"></div>
+        <div class="footer-info">
+            <h1>Cleaning Delux</h1>
+            <div class="footer-info-lvl2">
+                <div class="size">
+                    <div class="flx-sp-bw">
+                        <div class="media-icon"></div>
+                        <div class="media-icon"></div>
+                        <div class="media-icon"></div>
+                    </div>
+                </div>
+                <p>Hotel Warszauer, Warszauera 10, 31-057 Kraków</p>
+                <p>+48 123 456 789</p>
+            </div>
+            <div class="rights">
+                <p>Copyright © 2023 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

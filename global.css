@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 1vw;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+
+:root {
+    /* fonts */
+    --font-caveat: Caveat;
+    --font-pacifico: Pacifico;
+    --font-roboto: Roboto;
+    --font-kumbh-sans: "Kumbh Sans";
+    --font-bakbak-one: "Bakbak One";
+    --font-rampart-one: "Rampart One";
+
+    /* font sizes */
+    --font-size-13xl: 2rem;
+    --font-size-17xl: 2.25rem;
+    --font-size-21xl: 2.5rem;
+    --font-size-5xl: 1.5rem;
+    --font-size-77xl: 6rem;
+    --font-size-7xl: 1.63rem;
+
+    /* Colors */
+    --color-gray-100: #2a2a2a;
+    --color-gray-200: #1e1e1e;
+    --color-gray-300: rgba(0, 0, 0, 0.72);
+    --color-darkslategray-100: #454545;
+    --color-black: #000;
+    --color-lawngreen-100: #63e900;
+    --color-limegreen: #58ce01;
+    --color-deepskyblue: #00a4f1;
+    --color-dimgray-100: #555;
+    --color-dimgray-200: #4d4d4d;
+    --color-whitesmoke: #f7f9fb;
+    --color-darkblue-100: #2800ab;
+    --color-steelblue: #0091d5;
+    --color-honeydew: #e0ffe7;
+    --color-springgreen: #00e857;
+    --color-white: #fff;
+    --color-plum: #f995de;
+    --color-palevioletred: #b25b9a;
+    /* Shadow default value */
+    --sdw: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1367px) {
+
+
+    .AboutText p {
+
+
+        font-size: .9rem;
+        padding: 1rem 0;
+        letter-spacing: 1px;
+    }
+
+    .AboutText h1 {
+
+        font-size: 2rem;
+
+    }
+
+
+    .btmSection p {
+        font-size: .9rem;
+        letter-spacing: 1px;
+    }
+
+    .google-map-iframe {
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .contact {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .letter textarea {
+        background-image: linear-gradient(#fff, #fff 26.5px, black 1px);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .grpRight h1 {
+        font-size: 4rem;
+    }
+
+    .grpRight p {
+        font-size: 1.5rem;
+    }
+
+    .bd1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .grpRight a {
+        padding: 1rem;
+        font-size: 1.675rem
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .grpRight h1 {
+        font-size: 3rem;
+    }
+
+    .grpRight p {
+        font-size: 1rem;
+    }
+
+    .bd1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .grpRight a {
+        padding: 0.5rem;
+        font-size: 1rem
+    }
+
+    .bd1 {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grpRight {
+        justify-content: space-evenly
+    }
+
+    .media-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .AboutText p {
+        font-size: .675rem;
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grpRight h1 {
+        font-size: 3rem;
+    }
+
+    .grpRight p {
+        font-size: 1rem;
+    }
+
+    .grpRight {
+        justify-content: space-evenly
+    }
+
+    .bd1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .bd1 {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+    .menu {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .logoAndHam {
+        width: 100%
+    }
+
+    .ms-adpt {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ms-adpt a {
+        font-size: 2rem;
+        padding: 0.2rem;
+    }
+
+
+    .visibility {
+        display: none !important;
+    }
+
+    .hamburger-lines {
+        display: block;
+    }
+
+    .menuAdapt {
+        display: grid;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .media-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .AboutText::after {
+        left: -20%;
+        width: 3rem;
+    }
+
+
+
+}

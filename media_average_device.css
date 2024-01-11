@@ -101,6 +101,14 @@
         font-size: 1rem;
         padding: 5px 0;
     }
+
+
+    .footer-info-lvl2{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,8 +186,8 @@
     }
 
     .media-icon {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .AboutText::after {

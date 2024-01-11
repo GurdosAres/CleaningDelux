@@ -490,8 +490,9 @@ nav div a:hover {
 }
 
 .media-icon {
-    width: 4rem;
-    height: 4rem;
+
+    width: 3rem;
+    height: 3rem;
     background-image: url("icons/1.png");
     background-size: cover;
     background-position: center;
@@ -503,25 +504,10 @@ nav div a:hover {
 
 .flx-sp-bw {
     display: flex;
-    justify-content: space-between
+    justify-content: center;
 }
 
-.flx-sp-bw .media-icon:nth-child(1) {
-    width: 3rem;
-    height: 3rem;
-}
 
-.flx-sp-bw .media-icon:nth-child(2) {
-    background-image: url("icons/2.png");
-    width: 3rem;
-    height: 3rem;
-}
-
-.flx-sp-bw .media-icon:nth-child(3) {
-    background-image: url("icons/3.png");
-    width: 3rem;
-    height: 3rem;
-}
 
 
 /*   End Of Third Section     */
@@ -819,6 +805,7 @@ nav div a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 .footer-info {
@@ -836,7 +823,6 @@ nav div a:hover {
 
 .size {
     display: flex;
-    width: 30%;
 }
 
 .size .flx-sp-bw {

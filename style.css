@@ -22,6 +22,7 @@ nav {
 
 
 nav .logo {
+    
     color: #6F6F6F;
     text-align: center;
     text-shadow: var(--sdw);
@@ -111,12 +112,13 @@ nav div a:hover {
 /*    First Section     */
 .Main {
     position: relative;
+    user-select: none;
     width: 100%;
     background-image: url("images/1.jpg");
 
     background-image: linear-gradient(rgba(255, 255, 255, .22), );
     background-position: center;
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,19 +152,24 @@ nav div a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    opacity: 0;
+    transition:all 1000ms;
 }
 
 .grpRight h1 {
-    color: #454545;
+    color: #353535;
     text-align: center;
     text-shadow: var(--sdw);
     font-family: var(--font-pacifico);
-    font-size: 5rem;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
     line-height: 120.1%;
     /* 9.606rem */
     letter-spacing: 0.55rem;
+    -webkit-text-stroke: 1px #BBA017;
     z-index: 1;
 }
 
@@ -170,7 +177,7 @@ nav div a:hover {
     text-align: center;
     text-shadow: var(--sdw);
     font-family: var(--font-pacifico);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -186,7 +193,7 @@ nav div a:hover {
     color: rgba(0, 0, 0, 0.72);
     text-align: center;
     font-family: var(--font-bakbak-one);
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -198,19 +205,7 @@ nav div a:hover {
     background: #f280f7;
 }
 
-.grpRight h1 {
-    color: #353535;
-    text-align: center;
-    text-shadow: var(--sdw);
-    font-family: var(--font-pacifico);
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120.1%;
-    /* 9.606rem */
-    letter-spacing: 0.55rem;
-    -webkit-text-stroke: 1px #BBA017;
-}
+
 
 /*   End Of First Section     */
 /*    Second Section     */
@@ -310,9 +305,16 @@ nav div a:hover {
     height: 50rem;
     margin: 1rem 1rem;
     justify-content: center;
-}
 
-.offer .bg-img {
+    transform: translateX(50%);
+    opacity: 0;
+    transition:all 500ms;
+
+}
+.bg-img img{
+    height: 340px;
+}
+/* .offer .bg-img {
     width: 100%;
     box-shadow: var(--sdw);
     height: 100%;
@@ -330,7 +332,7 @@ nav div a:hover {
 
 .offer:nth-child(4) .bg-img {
     background-image: url("images/sprzataczka-noszenie-maski.jpg");
-}
+} */
 
 .offer h2 {
     margin-bottom: 0;
@@ -354,7 +356,7 @@ nav div a:hover {
     background-color: #fff;
     display: flex;
     box-shadow: var(--sdw);
-
+    height: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -430,7 +432,11 @@ nav div a:hover {
     align-items: center;
     width: 50%;
     height: 100%;
-    background: linear-gradient(90deg, rgb(255 243 255 / 0%) 6%, rgb(255 243 255) 13%)
+    font-size: clamp(1rem,2rem,3rem);
+    background: linear-gradient(90deg, rgb(255 243 255 / 0%) 6%, rgb(255 243 255) 13%);
+
+    opacity: 0;
+    transition:all 500ms;
 }
 
 .AboutText::after {
@@ -549,18 +555,18 @@ nav div a:hover {
     justify-content: center;
 }
 
-.image-slot {
+
+.image-holder img{
+
+    box-shadow: var(--sdw);
     width: 460px;
     height: 290px;
-    box-shadow: var(--sdw);
-    background-image: url("gallery/1.jpg");
     margin-left: 1rem;
     margin-bottom: 1.5rem;
     background-position: center;
     background-size: cover;
 }
-
-
+/* 
 .image-holder .image-slot:nth-child(2) {
     background-image: url("gallery/2.jpg");
 }
@@ -591,7 +597,7 @@ nav div a:hover {
 
 .image-holder .image-slot:nth-child(9) {
     background-image: url("gallery/9.jpg");
-}
+} */
 
 /*   End Of Fourth Section     */
 /*    Fifth Section     */
@@ -627,6 +633,10 @@ nav div a:hover {
     box-shadow: var(--sdw);
     margin: 0 auto;
     padding: 2rem;
+
+    transform: translateX(50%);
+    opacity: 0;
+    transition:all 1000ms;
 }
 
 .google-map {
@@ -635,6 +645,9 @@ nav div a:hover {
     align-content: center;
     align-items: center;
     justify-content: flex-start;
+
+    opacity: 0;
+    transition:all 1000ms;
 }
 
 .google-map p {
@@ -689,7 +702,6 @@ nav div a:hover {
 }
 
 .container3_call p {
-    font-size: ;
     margin: 5px 0;
 
 }
@@ -766,6 +778,9 @@ nav div a:hover {
 .Footer {
     width: 100%;
     background-color: #EFFCFE;
+
+    opacity: 0;
+    transition:all 1000ms;
 }
 
 .Footer img {
@@ -844,3 +859,15 @@ nav div a:hover {
 }
 
 /*   End Of Sixth Section     */
+
+.h1Gallery{
+    opacity:0;
+    transition: all 1000ms;
+}
+
+.fade{
+    transform: translateX(0);
+    opacity: 1.0;
+
+    transition: all 1000ms;
+}

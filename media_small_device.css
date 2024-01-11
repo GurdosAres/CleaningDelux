@@ -1,19 +1,18 @@
 @media only screen and (max-width: 520px) {
 
     .grpRight h1 {
-        font-size: 2rem;
-        -webkit-text-stroke: .5px #BBA017;
+        font-size: clamp(2rem,2.5rem,4rem);
+        -webkit-text-stroke: .25px #BBA017;
     }
 
     .grpRight p {
-        font-size: .8rem;
+        font-size: max(1.5rem);
         letter-spacing: 0.1rem;
     }
 
     .grpRight a {
         padding: 3px 6px;
-        font-size: 0.5rem;
-        font-size: 1.5rem;
+        font-size: max(2.5rem);
         letter-spacing: 0.1rem;
     }
 
@@ -46,7 +45,13 @@
         width: 100%;
         background: #ffffffc2;
     }
+    .AboutText p {
+        font-size:1.2rem;
+        padding: 0.3rem 1rem;
+        letter-spacing: 0;
+        justify-content: center;
 
+    }   
     .bgImg {
         width: 100%;
     }
@@ -68,16 +73,11 @@
 
 @media only screen and (max-width: 768px) {
 
-    .AboutText p {
-        font-size: 1.5vh;
-        padding: 0.3rem 1rem;
-        letter-spacing: 0;
 
-    }
 
     .AboutText h1 {
         text-align: justify;
-        font-size: 1rem;
+        font-size: 2rem;
         padding: 0.3rem 1rem;
     }
 
@@ -97,13 +97,13 @@
 
     .AboutText p {
         text-align: justify;
-        font-size: 1.5vh;
+        font-size: 1rem;
         padding: 0.5rem 1rem;
         letter-spacing: 0;
     }
 
     .AboutText h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .flx-sp-bw .media-icon {

@@ -3,11 +3,6 @@ function CloseOpen() {
     HamBtn.classList.toggle("IsActive");
     menuVisibility.classList.toggle("visibility");
 }
-let options = {
-    root: document.querySelector("#scrollArea"),
-    rootMargin: "0px",
-    threshold: 1.0,
-  };
 
   const targets = document.querySelectorAll('.targetObs')
 

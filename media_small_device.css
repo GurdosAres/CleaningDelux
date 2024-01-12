@@ -89,6 +89,10 @@
     .bg-img img{
         height: auto;
     }
+    nav .logo {
+        font-size: 2rem;
+        text-wrap: nowrap;
+    }
 
 }
 

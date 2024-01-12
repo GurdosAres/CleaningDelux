@@ -45,7 +45,6 @@
         background-image: linear-gradient(#fff, #fff 26.5px, black 1px);
     }
 }
-
 @media only screen and (min-height: 1024px) {
     .grpRight h1 {
         font-size: 7rem;
@@ -64,6 +63,18 @@
         font-size: 2.675rem
     }
 
+    .container2 {
+        width: 80%;
+        margin: 3rem auto;
+        background-color: #fff;
+        display: flex;
+        box-shadow: var(--sdw);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .grpRight a{
+        font-size: 3rem;
+    } 
 
 
 
@@ -78,14 +89,15 @@
     .grpRight p {
         font-size: clamp(1rem,1.5rem,4rem);
     }
-
+    .grpRight a{
+        font-size: 1.5rem;
+    }
     .grpRight button {
         padding: 1rem;
         font-size: 2rem
     }
 
     .bd1 {
-        height: 100vh;
         align-items: center;
         justify-content: center;
         flex-direction: column;

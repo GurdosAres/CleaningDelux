@@ -166,6 +166,7 @@ nav div a:hover {
     font-style: normal;
     font-weight: 400;
     margin: 0;
+    letter-spacing:4px;
     line-height: 120.1%;
     /* 9.606rem */
     -webkit-text-stroke: 1px #BBA017;

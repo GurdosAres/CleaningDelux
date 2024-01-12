@@ -96,7 +96,8 @@
 @media only screen and (max-width: 410px) {
 
     nav .logo {
-        font-size: 1rem;
+        font-size: 2rem;
+        text-wrap: nowrap;
     }
 
     .hamburger-lines {
